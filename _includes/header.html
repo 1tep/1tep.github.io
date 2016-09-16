@@ -8,12 +8,16 @@
         <div id="menu">
           <ul>
             <li><a href="index.html"><b>Home</b></a></li>
+            <li><a href="/elements.html"><b>Elements</b></a></li>
+            <li><a href="/generic.html"><b>Generic</b></a></li>
+            
+<!--
             {% for my_page in site.pages %}
             {% if my_page.title %}
             <li><a href="{{ my_page.url | prepend: site.baseurl }}"><b>{{ my_page.title }}</b></a></li>
             {% endif %}
             {% endfor %}
-<!--
+
             <li><a href="#">Sign Up</a></li>
             <li><a href="#">Log In</a></li>
             <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"

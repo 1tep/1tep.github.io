@@ -1243,7 +1243,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.style1 {
-			@include wrapper(accent_one);
+			@include wrapper(accent1);
 		}
 
 		&.style2 {
